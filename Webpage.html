@@ -1,0 +1,107 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #B0E2FF; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            padding: 20px;
+            text-align: center;
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+          
+        }
+        th {
+            font-weight: bold;
+            color: #555;
+        }
+        .info-header {
+            background-color: #8FBC8F; 
+            color: white;
+            text-align: center;
+            width: 50px; 
+        }
+        .subjects-box {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            margin-top: 10px;
+            display: inline-block;
+            text-align: left;
+        }
+        .subjects-box ol {
+            list-style-type: decimal;
+            padding-left: 20px;
+            margin: 0;
+        
+        .subjects-box li {
+            margin-bottom: 5px;
+            color: #333;
+        }
+        
+        table tr th:first-child,
+        table tr td:first-child {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Student Information</h2>
+        <table>
+            <tr>
+                <th class="info-header">Info</th>
+                <th>Name</th>
+                <td>John Kane Lorchano</td>
+            </tr>
+            <tr>
+                <th class=""></th>
+                <th>School</th>
+                <td>Holy Cross of Davao College</td>
+            </tr>
+            <tr>
+                <th class=""></th>
+                <th>Course</th>
+                <td>BS Information Technology</td>
+            </tr>
+        </table>
+
+        <div>
+            <h2>Favorite Subjects</h2>
+            <div class="subjects-box">
+                <ol>
+                    <li>Computer Programming</li>
+                    <li>Web Development</li>
+                    <li>Science</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
